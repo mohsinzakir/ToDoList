@@ -1,12 +1,14 @@
 <link rel="stylesheet" type="text/css" href="./style.css">
 
+<?php include "connection.php";
+include "addingchores.php"?>
+
 <h2>My Todo List</h2>
 <div class="container" id="container">
 	<div class="form-container sign-in-container">
-		<form action="#">
+		<form action="" method="get">
 			<h1>Add Task</h1>
 			 Chore: <input type="text" name="chore1"><br>
-			<button>Add Task</button>
 			<input type="submit">
 		</form>
 	</div>
